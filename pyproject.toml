@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["otollm <otollm@email.com>"]
+description = "Otoscopy image annotation system"
+license = "MIT"
+name = "imageselection"
+package-mode = false
+readme = "README.md"
+version = "1.0.0"
+
+[tool.poetry.dependencies]
+gradio = "^4"
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ipdb = "^0.13"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
